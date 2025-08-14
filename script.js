@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const errorMessage = document.getElementById("error-message");
     const body = document.body; // Get the body element to change its background
 
-    // const OPENWEATHER_API_KEY = "26d3392130f554b88a7b11d1bf9ff84b"; // Your OpenWeatherMap API Key
-    // const UNSPLASH_ACCESS_KEY = "3ip49qvmckRq0R9epStsBfFnZ3348k-YGtWKcbowENk"; // <<=== REPLACE WITH YOUR UNSPLASH ACCESS KEY
+    const OPENWEATHER_API_KEY = "26d3392130f554b88a7b11d1bf9ff84b"; // Your OpenWeatherMap API Key
+    const UNSPLASH_ACCESS_KEY = "3ip49qvmckRq0R9epStsBfFnZ3348k-YGtWKcbowENk"; /* UNSPLASH ACCESS KEY*/
 
     getWeatherButton.addEventListener('click', async () => {
         const city = cityInput.value.trim();
@@ -123,3 +123,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
